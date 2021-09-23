@@ -22,7 +22,7 @@ ul {
 }
 
 .mainButton{
-    background-color: darkred;
+    background-color: red;
     color:white;
     border:0px;
     padding: 5px 10px;
@@ -34,5 +34,5 @@ ul {
 .mainButton:hover{
     cursor: pointer;
     box-shadow: 2px 2px red;
-    transform: scale(1:1);
+    transform: scale(1.1);
 }
