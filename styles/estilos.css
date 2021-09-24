@@ -40,8 +40,11 @@ ul {
 }
 
 .mainButton:hover{
+    cursor: pointer;
     box-shadow: 2px 2px red;
+    transform: scale(1.1);
 }
+
 
 .secundaryButton{
     background-color: blue;
@@ -52,3 +55,22 @@ ul {
 .secundaryButton:hover{
     box-shadow: 2px 2px blue;
 }
+
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within{
+    border: 1px solid red;
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+}
+
+
+
