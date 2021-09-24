@@ -16,3 +16,55 @@ ul {
     justify-content: space-between;
     padding: 10px;
 }
+
+.logo{
+    height: 70px;
+}
+
+.button {
+    border:0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton{
+    background-color: red;
+    color:white;
+    box-shadow: 1px 1px red;
+}
+
+.mainButton:hover{
+    box-shadow: 2px 2px red;
+}
+
+.secundaryButton{
+    background-color: blue;
+    color:white;
+    box-shadow: 1px 1px blue;
+}
+
+.secundaryButton:hover{
+    box-shadow: 2px 2px blue;
+}
+
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within{
+    border: 1px solid red;
+}
+
+.buscar > input {
+    outline: none;
+    border: 0px;
+}
