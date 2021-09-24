@@ -87,3 +87,22 @@ ul {
     color: red;
 }
 
+.breedCardContainer {
+    display: flex;
+}
+
+.breedCard {
+    margin: 10px;
+}
+
+.contenedorImagen {
+    width: 150px;
+    height: 200px;
+    display: flex;
+}
+
+.contenedorImagen > img {
+    object-fit:fill;
+    width: 100%;
+}
+
