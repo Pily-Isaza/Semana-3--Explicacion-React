@@ -19,4 +19,23 @@ ul {
 
 .logo{
     height: 70px;
+<<<<<<< HEAD
+=======
+}
+
+.mainButton{
+    background-color: red;
+    color:white;
+    border:0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 1px 1px red;
+}
+
+.mainButton:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px red;
+    transform: scale(1.1);
+>>>>>>> 5-crear-boton-nuevopost
 }
