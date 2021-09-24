@@ -21,18 +21,34 @@ ul {
     height: 70px;
 }
 
-.mainButton{
-    background-color: red;
-    color:white;
+.button {
     border:0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainButton{
+    background-color: red;
+    color:white;
     box-shadow: 1px 1px red;
 }
 
 .mainButton:hover{
-    cursor: pointer;
     box-shadow: 2px 2px red;
-    transform: scale(1.1);
+}
+
+.secundaryButton{
+    background-color: blue;
+    color:white;
+    box-shadow: 1px 1px blue;
+}
+
+.secundaryButton:hover{
+    box-shadow: 2px 2px blue;
 }
