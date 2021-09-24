@@ -19,8 +19,6 @@ ul {
 
 .logo{
     height: 70px;
-<<<<<<< HEAD
-=======
 }
 
 .button {
@@ -42,12 +40,11 @@ ul {
 }
 
 .mainButton:hover{
+    cursor: pointer;
     box-shadow: 2px 2px red;
-<<<<<<< HEAD
     transform: scale(1.1);
->>>>>>> 5-crear-boton-nuevopost
-=======
 }
+
 
 .secundaryButton{
     background-color: blue;
@@ -57,10 +54,6 @@ ul {
 
 .secundaryButton:hover{
     box-shadow: 2px 2px blue;
-<<<<<<< HEAD
->>>>>>> 6-crear-boton-login
-=======
-
 }
 
 .buscar {
@@ -77,6 +70,7 @@ ul {
 .buscar > input {
     outline: none;
     border: 0px;
-
->>>>>>> b0c5b6ea2eaa3ef8602eed44ad7547ffc7840fe1
 }
+
+
+
