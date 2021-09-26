@@ -1,0 +1,130 @@
+
+body {
+  margin: 0px;
+}
+  
+  
+ul {
+  list-style: none;
+  padding:0px;
+  margin: 0px;
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(252, 225, 225);
+  border-bottom: 1px solid red;
+  box-shadow: 1px 1px rebeccapurple;
+}
+
+.navbar > li {
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  height: 70px;
+}
+
+.button {
+  border:0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.mainButton{
+  background-color: red;
+  color:white;
+  box-shadow: 1px 1px red;
+}
+
+.mainButton:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px red;
+  transform: scale(1.1);
+}
+
+
+.secundaryButton{
+  background-color: blue;
+  color:white;
+  box-shadow: 1px 1px blue;
+}
+
+.secundaryButton:hover{
+  box-shadow: 2px 2px blue;
+}
+
+.buscar {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buscar:focus-within{
+  border: 1px solid red;
+}
+
+.buscar > input {
+  outline: none;
+  border: 0px;
+}
+
+.iconoBusqueda:hover {
+  color: red;
+}
+
+.title {
+  color: red;
+  text-align: center;
+}
+
+.breedCardContainer {
+  display: flex;
+}
+
+.breedCard {
+  margin: 10px;
+  background-color: rgb(252, 225, 225);
+  box-shadow: 5px 10px 5px gray;
+  border-radius: 10px;   
+}
+
+.breedTitle {
+  color: black;
+  margin: 10px;
+  font-weight: bold;
+  font-size:medium;
+  position:fixed;
+}
+
+.contenedorImagen {
+  width: 150px;
+  height: 200px;
+  display: flex;
+}
+
+.contenedorImagen:hover {
+  cursor:pointer;
+  transform: scale(1.02)
+}
+
+.contenedorImagen > img {
+  object-fit:cover;
+  width: 100%;
+  border-radius: 10px;
+}
+

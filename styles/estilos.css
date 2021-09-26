@@ -87,3 +87,44 @@ ul {
     color: red;
 }
 
+.title {
+    color: red;
+    text-align: center;
+}
+
+.breedCardContainer {
+    display: flex;
+}
+
+.breedCard {
+    margin: 10px;
+    background-color: rgb(252, 225, 225);
+    box-shadow: 5px 10px 5px gray;
+    border-radius: 10px;   
+}
+
+.breedTitle {
+    color: black;
+    margin: 10px;
+    font-weight: bold;
+    font-size:medium;
+    position:fixed;
+}
+
+.contenedorImagen {
+    width: 150px;
+    height: 200px;
+    display: flex;
+}
+
+.contenedorImagen:hover {
+    cursor:pointer;
+    transform: scale(1.02)
+}
+
+.contenedorImagen > img {
+    object-fit:cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
