@@ -1,8 +1,9 @@
-import logo from './logo.svg';
-import './styles/styles.css';
-import Perfil from './media/perfil.JPG';
-import Perfil2 from './media/perfil 2.JPG';
-import Logo from './media/logo.JPG';
+import CardPerfiles from 'components/CardPerfiles';
+import logo from 'logo.svg';
+import 'styles/styles.css';
+import Perfil from 'media/perfil.JPG';
+import Perfil2 from 'media/perfil 2.JPG';
+import Logo from 'media/logo.JPG';
 
 function App() {
   return (
@@ -44,15 +45,5 @@ function App() {
   );
 }
 
-function CardPerfiles({nombrePerfil, imagen}) {
-  return(
-    <li className= 'breedCard backGroundRojo'>
-    <div className= 'contenedorImagen'>
-      <img src={imagen} alt='nombrePerfil'  /> 
-    </div>
-    <span className= 'breedTitle' > {nombrePerfil} </span>
-  </li> 
-   );
-}
 
 export default App;
