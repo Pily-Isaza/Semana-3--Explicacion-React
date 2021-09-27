@@ -108,7 +108,7 @@ ul {
   margin: 10px;
   font-weight: bold;
   font-size:medium;
-  position:fixed;
+  position:fixed; 
 }
 
 .contenedorImagen {
@@ -128,3 +128,6 @@ ul {
   border-radius: 10px;
 }
 
+.backGroundRojo {
+  background-color: brown;
+}

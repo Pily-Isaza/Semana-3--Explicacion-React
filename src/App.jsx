@@ -33,18 +33,8 @@ function App() {
         <section>
             <h1 className= 'title'> Entrenador </h1>
             <ul className= 'breedCardContainer'>
-               <li className= 'breedCard'>
-                 <div className= 'contenedorImagen'>
-                    <img src={Perfil} alt="Perfil"  />
-                 </div>
-                 <span className= 'breedTitle'> Alex Hinestrosa </span>
-                </li>
-                <li className= 'breedCard'>
-                  <div className= 'contenedorImagen'>
-                    <img src={Perfil2} alt="Perfil"  /> 
-                  </div>
-                  <span className= 'breedTitle'> Alex Hinestrosa </span>
-                </li>
+               <CardPerfiles nombrePerfil='Alex Hinestrosa' imagen={Perfil} />
+               <CardPerfiles nombrePerfil='Alex Hinestrosa' imagen={Perfil2} />
             </ul>
         </section>
         <section></section>
@@ -52,6 +42,17 @@ function App() {
        <footer></footer>
     </div>
   );
+}
+
+function CardPerfiles({nombrePerfil, imagen}) {
+  return(
+    <li className= 'breedCard backGroundRojo'>
+    <div className= 'contenedorImagen'>
+      <img src={imagen} alt='nombrePerfil'  /> 
+    </div>
+    <span className= 'breedTitle' > {nombrePerfil} </span>
+  </li> 
+   );
 }
 
 export default App;
