@@ -11,6 +11,23 @@ ul {
 
 }
 
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.mainContainer > main {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.mainContainer > footer {
+  background-color: red ;
+  padding: 10px;
+}
+
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -94,6 +111,7 @@ ul {
 
 .breedCardContainer {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .breedCard {
@@ -108,7 +126,7 @@ ul {
   margin: 10px;
   font-weight: bold;
   font-size:medium;
-  position:fixed; 
+  position:-webkit-sticky; 
 }
 
 .contenedorImagen {
